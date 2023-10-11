@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    </link>
+    <title>Welcome to Travel Page!!!!</title>
+</head>
+
+<body>
+    <img src="https://thumbs.dreamstime.com/b/beach-goa-india-5393913.jpg" alt="goa">
+    <div class="container">
+        <h2>Welcome to Goa Trip form</h2>
+        <p>Enter the detail and submit the form to confirm your trip</p>
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input type="number" name="age" id="age" placeholder="Enter Your Age">
+            <select class="gender" name="gender" id="exampleFormControlSelect1">
+                <option>Gender.....</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Transgender</option>
+                <option>Prefer not to respond</option>
+            </select>
+            <input type="phone" name="phone" id="phone" placeholder="Enter Your Phone No.">
+            <textarea name="address" cols="30" rows="3" id="address" placeholder="Your Address"></textarea>
+            <input type="mail" name="mail" id="mail" placeholder="Enter Your Email">
+            <textarea name="description" cols="30" rows="10" id="description"
+                placeholder="Additional Information about yourself"></textarea>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+    <script src="index.js"></script>
+    <!--INSERT INTO `goa` (`s.no`, `name`, `age`, `gender`, `phone`, `address`, `email`, `ad`, `date`) VALUES ('1',
+    'pallavi', '20', 'Female', '9886746348', 'mp vihar', 'this@this.com', 'my first row inserted', current_timestamp());-->
+</body>
+
+</html>
